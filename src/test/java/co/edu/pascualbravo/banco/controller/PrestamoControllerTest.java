@@ -108,9 +108,6 @@ class PrestamoControllerTest {
         then(actual).isEqualTo(1160.0);
     }
 
-    // ---------------------------------------------------------
-    // EXTRA: lista vacía o nula devuelve 0
-    // ---------------------------------------------------------
     @Test
     @DisplayName("Calcular descuento de cartera - lista vacía retorna 0")
     void calcularDescuentoListaVacia() {

@@ -34,10 +34,8 @@ public class PrestamoService {
     }
 
     public Prestamo procesarSolicitud(Long clienteId, double monto, String tipoCliente) {
-        validarSolicitud(clienteId, monto);
-
-        Prestamo prestamo = construirPrestamo(clienteId, monto, tipoCliente);
-
+        validarSolicitud(clienteId, monto);                                     // valida y sale temprano
+        Prestamo prestamo = construirPrestamo(clienteId, monto, tipoCliente);   // lógica
         return prestamoRepository.save(prestamo);
     }
 

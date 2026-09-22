@@ -9,7 +9,7 @@
         <relativePath/> </parent>
 
     <groupId>com.pascualbravo</groupId>
-    <artifactId>prestamos-service</artifactId>
+    <artifactId>banco</artifactId>
     <version>1.0.0-SNAPSHOT</version>
     <name>prestamos-service</name>
     <description>Microservicio de Préstamos - Banco Pascual Bravo</description>
